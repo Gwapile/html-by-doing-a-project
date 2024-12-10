@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins, san-serif';
+}
+
+:root{
+    --text-color:#fff;
+    --min-color:#13bbff;
+    --bg-color:#1b1f24;
+    --shadow-color: 0 0 20px var(--min-color);
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+h1{
+    font-size: 4.5rem;
+    background-image: url(<iframe src="https://giphy.com/embed/gFhZjOtzoutSvckWPM" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/originals-zoom-backgrounds-background-gFhZjOtzoutSvckWPM">via GIPHY</a></p>);
+}
+h4{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #eee;
+}
+.btn{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 10%;
+    background-color: transparent;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.25rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.logo span{
+    color: var(--min-color);
+}
+.navlist{
+    display: flex;
+    gap: 2.25rem;
+}
+.navlist a{
+    font-size: 0.9rem;
+    font-weight: 1000;
+    color: var(--text-color);
+    margin-left: 2.25rem;
+    transition: all 0.5s ease;
+}
+.navlist a:hover{
+    color: var(--min-color);
+    text-shadow: 3px 3px 20px var(--min-color), 2px 1px 30px var(--text-color);
+}
+.navlist a:active{
+    color: var(--min-color);
+}
+.Contact__me{
+    color: var(--min-color);
+    border: 2px solid var(--min-color);
+    transition: all 0.55s ease;
+}
+.Contact__me:hover{
+    background-color: var(--min-color);
+    color: var(--bg-color);
+    box-shadow: var(--shadow-color);
+    transform: scale(1.1);
+}
+section {
+    padding: 0 10%;
+}
+.hero{
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+.min-content{
+    padding-top: 15.75rem;
+}
+.min-content h1{
+    margin: 0.75rem;
+    line-height: 1.7rem;
+}
+.min-content p{
+    width: 38.74rem;
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2.75rem;
+}
+.social-icons a{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(0, 0 0, 0.4);
+    border-radius: 50%;
+    color: var(--min-color);
+    transition: all 0.4s ease;
+}
+.social-icons a:hover{
+    transform: translateX(10px);
+    box-shadow: var(--shadow-color);
+}
+.hero a:hover{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.hire__me{
+    background-color: var(--min-color);
+    color: var(--bg-color);
+    transition: all 0.5s ease;
+}
+.hire__me:hover{
+    background-color: transparent;
+    border: 2px solid var(--min-color);
+    color: var(--min-color);
+    box-shadow: var(--shadow-color);
+}
+.download__cv{
+    border: 2px solid var(--min-color);
+    color: var(--min-color);
+    transition: all 0.5s ease;
+
+}
+.download__cv:hover{
+    background-color: var(--min-color);
+    border: 2px solid transparent;
+    color: var(--bg-color);
+    box-shadow: var(--shadow-color);
+}
+.hero-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 47rem;
+    overflow: hidden;
+    border-radius: left 30px right 39px;
+    
+}
+.hero-img img{
+    min-width: 100%;
+    height: auto;
+}
